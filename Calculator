@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float quotient,sum;
+	int num1, num2,num3,num4;
+	
+	cout<<"WELCOME TO MY CALCULATOR\n";
+	cout<<"*************************\n";
+	cout<<"Please enter first number:\n";
+	cin>>num1;
+	cout<<"Please enter second number:\n";
+	cin>>num2;
+	quotient=num1/num2;
+	sum=num1+num2;
+	cout<<"The results:\n";
+	cout<<"The quotient is:"<<quotient;
+	cout<<"\nThe sum is:"<<sum;
+	
+	
+}
